@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Project</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    rel="stylesheet">
+    
+    <link href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet" >
+
+    <style>
+
+        .col {
+            background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FFree-Download-Desert-Background.jpg&f=1&nofb=1);
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        #wrapper {
+            background-color:rgba(51, 51, 51, 0.71) ;
+            padding:21px ;
+            text-transform:uppercase ;
+            width: 400px;
+        }
+
+        .input_group{
+            display: flex;
+            justify-content: center;
+            width: 100%
+        }
+
+        .icon_wrapper{
+           background-color:lightgrey; 
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            width: 44px;
+        }
+
+        input, .icon_wrapper{
+            height:44px ;
+        }
+        
+        input {
+            background-color: rgba(51, 51, 51, 0.9);
+            border: none;
+            color: lightgray;
+            margin-bottom: 15px;
+            padding: 9px;
+        }
+
+        button {
+            border: none;
+            display: block;
+            margin-bottom: 15px;
+            margin: 0 auto;
+            padding:9px;
+            text-transform: uppercase;
+            width:90%;
+        }
+
+        hr{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        #forgot_password{
+            text-transform: capitalize;
+            color:coral;
+            display: flex;
+            justify-content: center;
+          
+        }
+
+        #forgot_password span{
+            text-decoration:underline;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom:21px ;
+        }
+        
+       
+
+        .icon_wrapper i {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col d-flex align-items-center justify-content-center">
+                <div id="wrapper">
+                    <h3>Member Login</h3>
+                    
+                    <div class="input_group">
+                        <div class="icon_wrapper">
+                            <i class="fa fa-user"></i>
+                        </div>
+    
+                        <input placeholder="Username">
+                    </div>
+                   
+
+                    <div class="input_group">
+                        <div class="icon_wrapper">
+                            <i class="fa fa-lock"></i>
+                        </div>
+    
+                        <input placeholder="Password">
+                    </div>
+
+                    <button class="d-block">Login</button>
+
+                    <p id="forgot_password">Forgot Password?<span>Click Here</span></p>
+
+                    <hr>
+
+                    <button>Register</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
