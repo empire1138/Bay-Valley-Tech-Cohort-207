@@ -7,53 +7,42 @@ body{
 }
 
 .container{
-    -webkit-box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
-    box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
-
-    border-radius: 25px;
-
-
+    display: flex;
     background-color: ghostwhite;
-    width:400px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
     height: 250px;
-    
     max-width: 800px;
     min-width: 200px;
-
-    display: flex;
+    -moz-box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
     justify-content: center;
-   
-
+    -webkit-box-shadow: 0px 1px 69px 1px rgba(0,0,0,1);
+    width:400px;
 }
 
 .Login_form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
-
-    width:250px;
-
-}
-
-.wrapper{
-    
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    height: 100vh;
-
+    width:250px;
 }
 
 .Input_form_element{
-    margin: 15px;
-    padding:10px;
-    width: 100%; 
-
+    color:black;
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
     outline: none;
-    color:black;
+    padding:10px;
+    margin: 15px;
+    width: 100%; 
 }
+
+.wrapper{
+    align-items: center; 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
