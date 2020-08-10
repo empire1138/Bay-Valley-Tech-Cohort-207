@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template with Bootstrap Grid Project</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col col-lg-2 d-none d-sm-block " id="first_col">
+
+                <div class="welcome_banner">
+                    <button class="btn btn-warning" type="button">
+                        Welcome, Back!
+                    </button>
+                </div>
+
+                <div class="compose_button">
+                    <button class=" b btn btn-warning" type="button">
+                        <i class="fa fa-pencil-square" aria-hidden="true"></i>Compose
+                    </button>
+                </div>
+
+
+                <div class="mail_buttons">
+                    <ul>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-inbox" aria-hidden="true"> Inbox</i></li>
+                        </button>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-tag" aria-hidden="true"> Tagged</i>
+                            </button></li>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-flag" aria-hidden="true"> Important</i>
+                            </button></li>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-paper-plane" aria-hidden="true"> Sent</i>
+                            </button></li>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-envelope-open" aria-hidden="true"> Drafts</i>
+                            </button></li>
+                        <li><button class="btn btn-primary" type="button">
+                                <i class="fa fa-trash" aria-hidden="true"> Trash</i>
+                            </button></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col col-lg-3 col-sm-12 " id="second_col">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search for Email...">
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                        <h6 class="card-subtitle mb-2 text-muted date-time">02:45PM</h6>
+                        <p class="card-text">You have a new connection request.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                        <h6 class="card-subtitle mb-2 text-muted date-time">02:45PM</h6>
+                        <p class="card-text">You have a new connection request.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                        <h6 class="card-subtitle mb-2 text-muted date-time">02:45PM</h6>
+                        <p class="card-text">You have a new connection request.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                        <h6 class="card-subtitle mb-2 text-muted ">02:45PM</h6>
+                        <p class="card-text">You have a new connection request.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class=" col col-lg-7 col-sm-12 " id="third_col">
+
+                <div class="to_from_email text-muted">
+                    <p>To: taylor@iamarsoftware.io</p>
+                    <p>From:re-replay@theofficenbc.com</p>
+                </div>
+
+
+
+
+
+                <div class="email_header">
+                    <h5>Michael Scott Daily quotes
+                        <div class="email_header_nav_buttons">
+                            <button class="btn"><i class="fa fa-trash"></i></button>
+                            <button class="btn"><i class="fa fa-undo"></i></button>
+                            <button class="btn"><i class="fa fa-ellipsis-h"></i></button>
+                        </div>
+                    </h5>
+                </div>
+
+
+
+                <div class="email_text_container">
+                    <p>"Friends jokes with one another. 'Hey,you're poor.' Hey your mommas dead.' Thats what friends
+                        do.' <br></p>
+                    <p>"It's a good thing Russia doesn't exist anymore" <br></p>
+                    <p>"You cheated on me? When I specifically asked you not to?"<br></p>
+                    <p>"It just seems awfully mean. But sometimes, the end justify the mean."<br></p>
+                    <p>"Reverse psychology is an awesome tool. I don't know if you guys know about it, but,
+                        basically,
+                        you make someone think the opposite of what you believe, and that tricks them into doing
+                        something stupid. Works like a charm."
+                    </p>
+
+                </div>
+
+
+                <div class="replay_text_container">
+                    <div class="form-group">
+                        <textarea class="form-control" id="relay_text_area" rows="10"></textarea>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
