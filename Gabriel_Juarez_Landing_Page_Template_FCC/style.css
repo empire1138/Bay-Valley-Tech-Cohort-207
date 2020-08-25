@@ -1,0 +1,94 @@
+.blog_content_title{
+    text-align: center;
+    height: 110px;
+    padding-top: 25px;
+}
+
+.blog_content_img{
+    image-rendering: auto;
+    height: 250px;
+    width: 360px;
+}
+
+.blog_entry_col{
+    padding:10px; 
+}
+
+.container-fluid{
+    
+    padding:none; 
+}
+
+
+footer{
+    height: 350px;
+    background-color: slategray; 
+}
+
+.launch{
+    background-image: url("https://images.pexels.com/photos/9352/glass-time-watch-business.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    height: 700px; 
+    
+}
+
+.launch_col_First{
+    
+    color: white;
+}
+
+.pricing{
+    height: 350px; 
+}
+
+.navbar{
+    background:transparent;
+    
+}
+
+.nav-brand{
+    color:black; 
+}
+
+.services{
+
+    max-height: 1000px;
+}
+
+.services_h2_text{
+    padding-top: 50px; ;
+    text-align:center; 
+} 
+
+.testimonials_spot{
+    border: 3px solid gold;
+}
+
+.testimonials_header{
+    text-align:center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.info_content_2_col{
+    border:2px solid pink;
+}
+
+.dual_info_detail{
+    border:2px solid red; 
+}
