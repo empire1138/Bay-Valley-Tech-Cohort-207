@@ -1,94 +1,126 @@
-.blog_content_title{
-    text-align: center;
-    height: 110px;
-    padding-top: 25px;
+.blog_content {
+  background-color: #2a2f32;
+  color: whitesmoke;
 }
 
-.blog_content_img{
-    image-rendering: auto;
-    height: 250px;
-    width: 360px;
+.blog_content_title {
+  text-align: center;
+  height: 110px;
+  padding-top: 25px;
 }
 
-.blog_entry_col{
-    padding:10px; 
+.blog_content_img {
+  image-rendering: auto;
+  height: 250px;
+  width: 360px;
 }
 
-.container-fluid{
-    
-    padding:none; 
+.blog_entry_col {
+  padding: 10px;
 }
 
-
-footer{
-    height: 350px;
-    background-color: slategray; 
+.container-fluid {
+  padding: none;
 }
 
-.launch{
-    background-image: url("https://images.pexels.com/photos/9352/glass-time-watch-business.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-
-    height: 700px; 
-    
+.dual_info {
+  padding-bottom: 50px;
 }
 
-.launch_col_First{
-    
-    color: white;
+.dual_info_detail {
+  background-color: #2e86ab;
 }
 
-.pricing{
-    height: 350px; 
+.dual_info_img {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  max-height: 800px;
 }
 
-.navbar{
-    background:transparent;
-    
+footer {
+  height: 350px;
+  background-color: #020204;
+  color: white;
 }
 
-.nav-brand{
-    color:black; 
+.launch {
+  background-image: url("https://images.pexels.com/photos/9352/glass-time-watch-business.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 700px;
 }
 
-.services{
-
-    max-height: 1000px;
+.launch_col_First {
+  color: white;
 }
 
-.services_h2_text{
-    padding-top: 50px; ;
-    text-align:center; 
-} 
-
-.testimonials_spot{
-    border: 3px solid gold;
+.info_content {
+  padding-bottom: 50px;
 }
 
-.testimonials_header{
-    text-align:center; 
+.info_content_img_1 {
+  width: 100%;
+  max-width: 445px;
+  height: 425px;
+  max-height: 750px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.info_content_2_col{
-    border:2px solid pink;
+.pricing {
+  background-color: #f5f5f5;
+  margin-top: 25px;
 }
 
-.dual_info_detail{
-    border:2px solid red; 
+.pricing_col {
+  background-color: white;
+  border: 3px solid #2e86ab;
+  height: 175px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+
+  -webkit-box-shadow: 0px 0px 22px 1px rgba(2, 2, 4, 0.77);
+  -moz-box-shadow: 0px 0px 22px 1px rgba(2, 2, 4, 0.77);
+  box-shadow: 0px 0px 22px 1px rgba(2, 2, 4, 0.77);
+}
+
+.navbar {
+  background: transparent;
+  background-color: #020204;
+}
+
+.navbar-text {
+}
+
+.nav-brand {
+  color: white;
+}
+
+.services {
+  max-height: 1000px;
+}
+
+.services_h2_text {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.testimonials_spot {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #cdb470;
+}
+
+.testimonials_header {
+  text-align: center;
+}
+
+.testimonials {
+  background-color: #74777c;
 }
