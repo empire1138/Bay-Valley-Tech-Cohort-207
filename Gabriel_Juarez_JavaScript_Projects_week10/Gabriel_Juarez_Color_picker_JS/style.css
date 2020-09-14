@@ -1,0 +1,21 @@
+.center_block{
+    text-align: center;
+    color: white;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #0a0a0a;
+
+    border-radius: 25px; 
+
+    margin-top: 50vh;
+}
+
+.navbar{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(136, 132, 132, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(131, 122, 122, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(124, 119, 119, 0.75);
+
+    background-color: whitesmoke;
+}
