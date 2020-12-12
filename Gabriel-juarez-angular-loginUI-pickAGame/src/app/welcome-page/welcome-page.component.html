@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <div class="row justify-content-center entryForm">
+    <div class="col-xs-12 colform">
+      <h3 class="title">Enter Your Favorite Video Game</h3>
+
+      <form [formGroup]="userChoice" class="userForm">
+        <label for="userEmail">Email</label>
+        <input
+          formControlName="email"
+          type="email"
+          name="userEmail"
+          id="userEmail"
+          class="form-control"
+          placeholder="Please Enter Your Email"
+        />
+
+        <label for="userFirstName">First Name</label>
+        <input
+          formControlName="firstName"
+          type="text"
+          name="userFirstName"
+          id="userFirstName"
+          class="form-control"
+          placeholder="Please Enter Your First Name"
+        />
+
+        <label for="userLastName">Last Name</label>
+        <input
+          formControlName="lastName"
+          type="text"
+          name="userLastName"
+          id="userLastName"
+          class="form-control"
+          placeholder="Please Enter your Last Name"
+        />
+
+        <label for="userBirthYear">Birth Year</label>
+        <input
+          formControlName="birthday"
+          type="number"
+          name="userBirthYear"
+          id="userBirthYear"
+          class="form-control"
+        />
+
+        <label for="userVideoGamePick"></label>
+        <input
+          formControlName="videoGame"
+          type="text"
+          name="userVideoGamePick"
+          id="userVideoGamePick"
+          class="form-control"
+          placeholder="Please Enter your Video Game Choice"
+        />
+
+        <button
+          [disabled]="!userChoice.valid"
+          (click)="handleSubmitClick()"
+          type="submit"
+          class="btn btn-primary mx-auto"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

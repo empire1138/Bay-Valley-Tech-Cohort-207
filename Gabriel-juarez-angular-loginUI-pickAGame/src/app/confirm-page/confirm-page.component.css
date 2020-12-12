@@ -1,0 +1,17 @@
+.colAnswer {
+  text-align: center;
+  margin-top: 30vh;
+  border: 1px solid black;
+  background-color: #009fb7;
+
+  -webkit-box-shadow: -1px 17px 51px 0px rgba(242, 245, 247, 1);
+  -moz-box-shadow: -1px 17px 51px 0px rgba(242, 245, 247, 1);
+  box-shadow: -1px 17px 51px 0px rgba(242, 245, 247, 1);
+
+}
+
+.container-fluid {
+  height: 100vh;
+
+  background-color: #646270;
+}

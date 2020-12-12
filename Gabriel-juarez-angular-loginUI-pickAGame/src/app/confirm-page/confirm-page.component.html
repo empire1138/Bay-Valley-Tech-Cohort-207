@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-xs-12 colAnswer">
+      <h2>Thank you for submitting your Favorite Video Game</h2>
+      <h5>The information you submit</h5>
+
+      <p>Email: {{ userEntires.email }}</p>
+      <p>First Name: {{ userEntires.firstName | uppercase }}</p>
+      <p>Last Name: {{ userEntires.lastName | uppercase }}</p>
+      <p>Birth Year: {{ userEntires.birthday }}</p>
+      <p>Video Game Choice: {{ userEntires.videoGame }}</p>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
