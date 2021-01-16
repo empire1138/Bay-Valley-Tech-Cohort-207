@@ -1,0 +1,72 @@
+<div class="constainer-fluid">
+  <div class="row justify-content-center entryForm">
+    <div class="col-xs-6 purchaseReview">
+      <app-cart-review></app-cart-review>
+    </div>
+
+    
+
+    <div class="col-xs-6 colform offset-md-1 userEntryForm">
+      <h3>Please Fill out the Information to Complete your Order</h3>
+      <form
+        [formGroup]="checkoutForm"
+        (ngSubmit)="onSubmit(checkoutForm.value)"
+      >
+        <label for="email">Email</label>
+        <input
+          formControlName="email"
+          type="email"
+          name="email"
+          id="email"
+          class="form-Control"
+        />
+
+        <label for="firstName">First Name</label>
+        <input
+          formControlName="firstName"
+          type="text"
+          name="firstName"
+          id="firstName"
+          class="form-Control"
+        />
+
+        <label for="lastName">Last Name</label>
+        <input
+          formControlName="lastName"
+          type="text"
+          name="lastName"
+          id="lastName"
+          class="form-Control"
+        />
+
+        <label for="address">Address</label>
+        <input
+          formControlName="address"
+          type="text"
+          name="address"
+          id="address"
+          class="form-Control"
+        />
+
+        <label for="phoneNumber">Phone Number</label>
+        <input
+          formControlName="phoneNumber"
+          type="text"
+          name="phoneNumber"
+          id="phoneNumber"
+          class="form-Control"
+          placeholder="Format: xxxx-xxx-xxxx"
+         
+        />
+        <button
+          [disabled]="!checkoutForm.valid"
+          (click)="handleSubmitClick()"
+          class="button"
+          type="submit"
+        >
+          Complete Purchase
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

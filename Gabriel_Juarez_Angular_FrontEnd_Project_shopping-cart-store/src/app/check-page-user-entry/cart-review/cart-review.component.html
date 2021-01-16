@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Complete Purchase Review</h2>
+
+      <h3>Items Purchased:</h3>
+      <div class="cart-item" *ngFor="let item of items">
+        <span>{{ item.name }}</span>
+        <span>{{ item.price | currency }}</span>
+      </div>
+
+      <h3>Total Cost of Items: {{ itemsTotal }}</h3>
+
+      <div *ngFor="let ship of shipping">
+        <h3>
+          Total Shipping Cost:{{ ship.type }}
+          {{ ship.price | currency }}
+        </h3>
+
+        <h3>Total Purchase Cost : {{ cartsTotal | currency: "USD" }}</h3>
+
+        <button routerLink="/cart">Return to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
